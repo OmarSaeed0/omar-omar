@@ -1,36 +1,44 @@
 *{
     margin: 0px;
+    border: 0px;
+
 
 }
+
 img{
     max-width: 100%;
 }
 
 .navbar{
-    background-color: aquamarine;
+   
     width: 100%;
-    height: 120px;
-    position: fixed;
+    height: 100px;
+    position: sticky;
+    background-color: black;
+    
     
 }
 .left{
     width: 25%;
     height: 100px;
     float: left;
+    margin-left: 120px;
+    padding-top: 35px;
 
 }
 .right{
-    width: 75%;
+    width: 60%;
     height: 100px;
     float: left;
+    padding-top: 20px;
     
     
     
 }
 .left img{
-    margin-left: 30px;
+    margin-left: 60px;
     margin-top: 20px;
-    height: 60px;
+    height: 40px;
     
 }
 body{
@@ -49,16 +57,31 @@ nav ul{
 }
 nav ul li{
     display: inline-block;
-    font-size: 30px;
-    text-decoration: none;
+    font-size: px;
+    
     padding-top: 23px;
-    padding-left: 80px;
+    padding-left: 40px;
+    color: white;
   
     
 }
 nav ul li a{
+    
+  
+    
+    color: #fff !important;
+    display: block;
+    font-weight: 500;
+    
+   
+    overflow: hidden;
+    
+    position: relative;
     text-decoration: none;
-    color: black;
+    
+
+ 
+ font-size: 20px;
 }
 body
 {
@@ -82,18 +105,60 @@ body
     padding: 10px;
   }
 }
-::-webkit-scrollbar{
-    width: 30px;
+.bg{
+    background-image: url("banner-3.jpg");
+    width: 100%;
+    height: 850px;
+   background-repeat: no-repeat;
+   
+   background-position: center;
+    
 }
-::-webkit-scrollbar-track{
-    background-color: whitesmoke;
+.contain{
+    padding-left: 180px;
+    padding-top: 170px;
+    font-size: 60px;
+    color: white;
+    
 }
-::-webkit-scrollbar-thumb{
-    background-color: rgb(247, 147, 130);
+.contain2{
+    font-size: 20px;
+
 }
-::-webkit-scrollbar-thumb:hover{
-    background-color: rgb(241, 71, 41);
+.b1{
+    padding-left: 180px;
+    padding-top: 50px;
 }
-nav{
-    overflow: auto;
+.b1 button{
+    color: white;
+    width: 190px;
+    height: 55px;
+    font-size: 15px;
+    background-color: #FF0066;
+    border-radius: 5px;
+    line-height: 50px;
+    float: left;
+    padding-right: 20px;
+    
+    
 }
+.b2 button{
+    
+    color: white;
+    width: 220px;
+    height: 55px;
+    font-size: 15px;
+    background-color: #FF0066;
+    border-radius: 5px;
+    padding-left: 50px;
+    float: left;
+    margin-left: 30px;
+    border:solid #FF0066;
+    background-color: transparent;
+    
+}
+.b2 button:hover {
+    background-color: #FF0066;
+}
+
+
